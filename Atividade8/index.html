@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 8 - Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Pedra, Papel, ou Tesoura?</h1>
+    </header>
+
+    <main class="container">
+        <h2>Escolha uma opção:</h2>
+        <form class>
+            <div class="flex-container">
+                <div>
+                    <figure>
+                        <img src="img/pedra.png" alt="pedra" height="100px">
+                    </figure>
+                    <input type="radio" id="pedra" name="opcao" checked>
+                    <label for="pedra">Pedra</label>
+                </div>
+
+                <div>
+                    <figure>
+                        <img src="img/papel.png" alt="papel" height="100px">
+                    </figure>
+
+                    <input type="radio" id="papel" name="opcao">
+                    <label for="papel">Papel</label>
+                </div>
+
+                <div>
+                    <figure>
+                        <img src="img/tesoura.png" alt="tesoura" height="100px">
+                    </figure>
+                    <input type="radio" id="tesoura" name="opcao">
+                    <label for="tesoura">Tesoura</label>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" onclick="jogar()">Jogar</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
