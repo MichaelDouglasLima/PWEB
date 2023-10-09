@@ -55,6 +55,6 @@ alert(`Média da idade das Pessoas que Responderam o Questionário: ${mediaIdade
 Idade da Pessoa Mais Velha: ${velhoIdade}\n
 Idade da Pessoa Mais Nova: ${novoIdade}\n
 Quantidade de Pessoas que resonderam Péssimo: ${qtdePessimo}\n
-Porcentagem de Pessoas que Responderam Ótimo ou Bom: ${qtdeOtimoBom / 5 * 100}%\n
+Porcentagem de Pessoas que Responderam Ótimo ou Bom: ${qtdeOtimoBom / 45 * 100}%\n
 Quantidade de Homens que Responderam o Questionário: ${qtdeHomens}\n
 Quantidade de Mulheres que Responderam o Questionário: ${qtdeMulheres}`);
