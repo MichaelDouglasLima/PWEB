@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.form-style{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
