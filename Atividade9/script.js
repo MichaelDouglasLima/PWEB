@@ -11,7 +11,7 @@ var qtdeHomens = 0;
 var qtdeMulheres = 0;
 var primeiroTeste = 0;
 
-for (var i = 0; i < 5; i++){
+for (var i = 0; i < 45; i++){
     idade = prompt("Informe a sua idade: ");
     sexo = prompt("Informe o seu sexo (M/F):" );
     opiniao = prompt("Informe sua opinião (1 = Péssimo, 2 = Regular, 3 = Bom, 4 = Ótimo): ");
@@ -51,7 +51,7 @@ for (var i = 0; i < 5; i++){
     }
 }
 
-alert(`Média da idade das Pessoas que Responderam o Questionário: ${mediaIdade / 5}\n
+alert(`Média da idade das Pessoas que Responderam o Questionário: ${mediaIdade / 45}\n
 Idade da Pessoa Mais Velha: ${velhoIdade}\n
 Idade da Pessoa Mais Nova: ${novoIdade}\n
 Quantidade de Pessoas que resonderam Péssimo: ${qtdePessimo}\n
