@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 14 - Transformador de Textos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Transformador de Textos</h1>
+    </header>
+
+    <main class="container">
+        <h2>Digite um Texto</h2>
+
+        <form>
+            <div>
+                <label for="frase">Digite:</label>
+                <input id="frase" type="text" >
+            </div>
+
+            <div>
+                <input id="maiusculas" type="checkbox" onclick="toMaius()">
+                <label for="maiusculas">Transformar em Maiúsculas</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="minusculas" onclick="toMinus()">
+                <label for="minusculas">Transformar em Minúsculas</label>
+            </div>
+        </form>
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
