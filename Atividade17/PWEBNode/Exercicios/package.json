@@ -1,0 +1,11 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "Minha Descricao",
+  "main": "Callback1.js",
+  "scripts": {
+    "test": "TESTANDO"
+  },
+  "author": "",
+  "license": "ISC"
+}
