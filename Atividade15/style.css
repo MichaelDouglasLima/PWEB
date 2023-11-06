@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 220, 255);
+}
+
+button {
+    font-size: 16px;
+    padding: 4px;
+    margin-top: 32px;
+}
+
+.container {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+
+.header-title {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    text-align: center;
+}
+
+.form-container {
+    width: 600px;
+    margin: auto;
+    margin-top: 16px;
+    text-align: start;
+}
+
+.form-container div {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
